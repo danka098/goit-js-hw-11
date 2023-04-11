@@ -1,1 +1,12 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 0.03em;}
+
+    button {
+        cursor: pointer;
+    }
