@@ -82,7 +82,7 @@ async function newPage(e) {
   page += 1;
   try {
     const response = await axios.get(
-      `https://pixabay.com/api/?30644078-9c3e2e06796d38a395da3d7bc&q=${searchInput.value.trim()}&image_type=photo&orientation=horizontal&safesearch=true&per_page=40&page=${page}`,
+      `https://pixabay.com/api/?key=30644078-9c3e2e06796d38a395da3d7bc&q=${searchInput.value.trim()}&image_type=photo&orientation=horizontal&safesearch=true&per_page=40&page=${page}`,
       {
         params: {
           key: '330644078-9c3e2e06796d38a395da3d7bc',
